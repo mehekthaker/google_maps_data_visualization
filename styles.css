@@ -1,0 +1,29 @@
+#map,
+#pano {
+  float: left;
+  height: 95%;
+  width: 50%;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #132c6b;
+}
+
+.pano-class{
+    background-color: #adb3af;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.footer {
+    padding: 5%;
+    height: 5%;
+}
+
+a {
+    color: white;
+    font-size: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}

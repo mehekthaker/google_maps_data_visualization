@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Google Maps API - Data visualization</title>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+
+    <link rel="stylesheet" type="text/css" href="/styles.css" />
+    <script type="module" src="/maps.js"></script>
+  </head>
+  <body>
+    <div id="map"></div>
+    <div id="pano" class="pano-class">Click the thief on map to load the street view</div>
+    <div class="footer">
+      <a href="https://www.flaticon.com/free-icons/thief" title="thief icons">Thief icons created by BZZRINCANTATION - Flaticon</a></div>
+      <a href="https://catalog.data.gov/dataset/part-1-crime-data-2b9ba" title="dataset">Dataset provided by DATA.GOV</a>
+    <script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAQtn38PjiIYFHW02miCZPOd-52ei3SdXk&callback=initMap&v=weekly"
+      defer
+    ></script>
+  </body>
+</html>
